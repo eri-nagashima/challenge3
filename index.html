@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+<script>
+	const literalThree = "3";
+    const numberThree = 3;
+    console.log(literalThree === numberThree); //厳密等価演算子。文字列の「２」と数値の２は異なる型なのでfalseを返す//
+
+
+    const literalFour = "4";
+    const numberFour = 4;
+    console.log(literalFour == numberFour); //等価演算子。型の違いまでは判別しないため、trueを返す//
+
+    const numberFive = 5;
+    const numberSix = 6;
+    console.log(numberFive <= numberSix); //true    
+</script>
+</body>
+</html>
